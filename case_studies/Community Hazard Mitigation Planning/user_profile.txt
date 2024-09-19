@@ -1,0 +1,5 @@
+- **Profession:** Hazard mitigation planner for Mora County, NM with experience in writing one plan.
+- **Concern:** Assessing the likelihood of wildfires over the next 15 years for the community.
+- **Location:** Latitude 35.98245135784044, Longitude -105.30670166015626.
+- **Time:** Focus on a long-term assessment over the next 15 years.
+- **Scope:** Exploring the frequency, intensity, and timing of wildfires.

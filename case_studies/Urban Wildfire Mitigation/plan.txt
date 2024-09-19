@@ -1,0 +1,5 @@
+**Step 1: Data Analysis with FWI:** I will analyze the Fire Weather Index (FWI) dataset to understand potential trends in fire danger specifically for the mid-century period (2045-2054) and compare these trends with historical data to assess the increasing trend of fire danger. This will help foresee periods with heightened wildfire risks in Beaverton, Oregon.
+
+**Step 2: Literature Search:** I will conduct a comprehensive literature search focusing on wildfire risks and climate change, specifically looking at successful strategies overseas and in similar climates for improving building codes aimed at fire resilience.
+
+**Step 3: Recommendations:** Based on the analysis of the FWI and insights from the literature, I will provide informed recommendations tailored to enhance building codes and strategic urban planning to fortify Beaverton against future wildfire risks.

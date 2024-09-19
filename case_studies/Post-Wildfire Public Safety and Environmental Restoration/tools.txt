@@ -1,0 +1,146 @@
+
+
+
+
+**Tool Outputs**
+Ask the client to confirm the location by clicking the 'Confirm Location' button.
+**LLM Response**
+Please confirm the location by clicking the 'Confirm Location' button on the map provided. Is this the correct area for assessing wildfire risks?
+
+
+
+
+**Tool Outputs**
+Checklist has been updated. Please tell your client that you have come up with a few more follow-up questions about the scope of this session and will ask them for more details. Ask the client if they are ready to proceed.
+**LLM Response**
+I have updated our records with the information you provided. I have a few more follow-up questions about the scope of this session to better tailor our consultation to your needs. Are you ready to proceed with these questions?
+
+
+
+
+**Tool Outputs**
+The number of wildfire incidents within 36 km of the location (lat: 35.8534, lon: -105.683) from 2015 to 2022 are as follows:
+
+Incidents per Year:
+year
+2015    20
+2016    21
+2017    32
+2018    73
+2019    35
+2020    39
+2021    24
+2022    16
+Name: count, dtype: int64
+
+Incidents per Month:
+month
+1      2
+2      3
+3      6
+4     23
+5     69
+6     46
+7     57
+8     32
+9     16
+10     2
+11     2
+12     2
+Name: count, dtype: int64
+This summary statistics is extracted from Point Locations for all wildfires within 36 km of the given location reported to the IRWIN system, https://data-nifc.opendata.arcgis.com/datasets/nifc::wildland-fire-incident-locations/about. This data source contains all wildfire incidents from the IRWIN (Integrated Reporting of Wildland Fire Information) incident service from 2015 to 2023. 
+
+----------
+
+# Instructions: 
+
+Please analyze and interpret fire incident numbers in [specified region] in the style of a research scientist in 100 words or less:
+- Explain what these fire incident numbers indicate about current fire risks.
+- Contextualize your data. How do these values relate to [your client's specific query or concern]? For example, how does the trend impact the user's community or industry? What's the broader impact on the people and the economy?
+- Offer insights based on these trends. 
+- Provide the link to the data source.
+- Ask if your client has any questions, or you can proceed to the next step.
+**LLM Response**
+The wildfire incident data from 2015 to 2022 in the Sangre De Cristo Mountains indicates a notable variability in annual wildfire occurrences, with a peak in 2018 (73 incidents). The data suggests an elevated fire risk, particularly in the late spring and early summer months (May to July), which is crucial for planning mitigation strategies. This trend underscores the importance of enhancing community preparedness and emergency response capabilities in these critical periods. The decrease in incidents in 2022 could indicate effective mitigation or variability in weather conditions but requires continuous monitoring and adaptation of strategies.
+
+For further details, you can access the data source [here](https://data-nifc.opendata.arcgis.com/datasets/nifc::wildland-fire-incident-locations/about).
+
+Would you like to discuss any specific concerns based on these trends, or shall we proceed to the next step of analyzing the Fire Weather Index data?
+
+
+
+
+**Tool Outputs**
+The Fire Weather Index (FWI) for location (lat: 35.8534, lon: -105.683) is, reported within a 36 km radius. Historically (1995 - 2004), the FWI iswildfire_spring_Hist: 6.5(Low, standard error: 3.5), wildfire_summer_Hist: 12.34(Medium, standard error: 6.13), wildfire_autumn_Hist: 11.65(Medium, standard error: 4.9), wildfire_winter_Hist: 2.5(Low, standard error: 1.63). In the mid-century (2045 - 2054), the FWI is projected to bewildfire_spring_Midc: 9.17(Medium), wildfire_summer_Midc: 13.95(Medium), wildfire_autumn_Midc: 10.21(Medium), wildfire_winter_Midc: 3.51(Low). In the end-of-century (2085 - 2094), the FWI is projected to bewildfire_spring_Endc: 13.55(Medium), wildfire_summer_Endc: 14.99(Medium), wildfire_autumn_Endc: 13.09(Medium), wildfire_winter_Endc: 5.47(Low).
+This data is extracted from the Climate Risk & Resilience Portal (ClimRR), developed by the Center for Climate Resilience and Decision Science (CCRDS) at Argonne National Laboratory. You can access the website: https://disgeoportal.egs.anl.gov/ClimRR/
+The Fire Weather Index (FWI) estimates wildfire danger using weather conditions that influence the spread of wildfires. The FWI is comprised of multiple components that are developed using daily readings of temperature, relative humidity, wind speed, and 24-hour precipitation. This weather information is used to estimate the total fuel available for combustion (dry organic material) and the rate of fire spread. The FWI is useful for evaluating weather-based conditions that heighten the danger of wildfire spread once ignition has occurred; it does not account for sources of ignition, which can have both natural and human causes. Areas in the U.S. Southwest, which are often exceptionally dry, will have higher average daily FWI values than areas in the Northeast. **Values above 25 typically represent a high level of danger in the northern regions, whereas values above 40-45 often represent a high level of danger in the Southwest.**
+
+----------
+
+**Instructions**: 
+
+Please analyze and interpret FWI numbers in [specified region] in the style of a research scientist in 100 words or less:
+- Explain what these FWI numbers indicate about future fire risks and how they compare to historical trends.
+- Contextualize your data. How do these values relate to [your client's specific query or concern]? For example, how does the trend impact the user's community or industry? What's the broader impact on the people and the economy?
+- Offer insights based on these trends. 
+- Provide the link to the data source for these FWI values. 
+- Ask if your client has any questions, or you can proceed to the next step.
+**LLM Response**
+The Fire Weather Index (FWI) data for the Sangre De Cristo Mountains shows a trend of increasing wildfire risk over the coming decades. Historically, the FWI during spring and summer was in the low to medium range, but projections indicate a shift towards higher medium values by the end of the century. Notably, the spring FWI is expected to more than double from its historical average, indicating a significant increase in fire risk during this season.
+
+These trends suggest that future wildfire management strategies should focus on enhancing preparedness during these critical months. Increasing community engagement and improving emergency response capabilities will be essential to mitigate the higher fire risks anticipated. This data is crucial for planning long-term public safety and environmental protection measures in the region.
+
+For more details, you can visit the Climate Risk & Resilience Portal [here](https://disgeoportal.egs.anl.gov/ClimRR/).
+
+Would you like to discuss any specific measures based on these projections, or should we proceed to the next step of conducting a literature search on effective post-wildfire recovery strategies?
+
+
+
+
+**Tool Outputs**
+Here are the 3 most relevant papers for your query 'effective post-wildfire recovery strategies focusing on public safety and environmental restoration in mountainous regions':
+
+1. Title: ALPINE FIRES 2003: REHABILITATION AND RECOVERY OF PUBLIC LAND
+Authors: P Jacobs et al.
+Year: 2003.0
+Abstract: The Alpine Fires of 2003 burnt through over 1.1 million hectares of mostly public land in eastern Victoria over a period of over 60 days before being brought under control. The fires extended throughout the Australian Alps into New South Wales and the Australian Capital Territory, burning in total, over 1.8 million hectares. Recovery and rehabilitation of natural and cultural values, managing visitor use and repair or replacement of built assets affected by the fire is a task of major proportions, requiring careful planning and targeted funding. This paper presents a process to rapidly identify values at risk from potentially threatening processes as a result of the fire, manage visitor use and prioritise and program post fire management response. In Victoria, post fire recovery and rehabilitation on public land started immediately the fire was brought under control with the establishment of seven rehabilitation teams throughout the fire area. The key components of the rehabilitation program were: Containment line rehabilitation Efforts to contain the fires resulted in the construction of over 6000 km of containment line to a range of standards. The initial objective was to stabilise disturbed soils ahead of any significant rain events, followed by full rehabilitation. Rehabilitation guidelines for disturbances were developed. Recovery Planning Recovery plans were developed for seven units within the fire area. Fundamental to the fire rehabilitation planning was the preparation of value sets, risk assessment and community consultation to determine: • Priority areas for stabilising and rehabilitation of disturbances; • Management strategies to assist ecological recovery and protection of cultural and natural heritage values; • Built assets in need of repair or replacement; and • Priority areas to assess and re-open for public use as soon as possible for visitors and to support the affected tourism industry. The individual unit plans were then synthesised and summarised into a Statewide Ecological and Cultural Recovery Plan, asset replacement plans and opening strategies which programmed funds made available from Government for bushfire recovery.
+
+2. Title: Postfire Management on Forested Public Lands of the Western United States
+Authors: Robert Beschta et al.
+Year: 2004.0
+DOI: https://doi.org/10.1111/j.1523-1739.2004.00495.x
+Abstract: Forest ecosystems in the western United States evolved over many millennia in response to distur- bances such as wildfires. Land use and management practices have altered these ecosystems, however, including fire regimes in some areas. Forest ecosystems are especially vulnerable to postfire management practices be- cause such practices may influence forest dynamics and aquatic systems for decades to centuries. Thus, there is an increasing need to evaluate the effect of postfire treatments from the perspective of ecosystem recovery. We examined, via the published literature and our collective experience, the ecological effects of some common postfire treatments. Based on this examination, promising postfire restoration measures include retention of large trees, rehabilitation of firelines and roads, and, in some cases, planting of native species. The following practices are generally inconsistent with efforts to restore ecosystem functions after fire: seeding exotic species, livestock grazing, placement of physical structures in and near stream channels, ground-based postfire log- ging, removal of large trees, and road construction. Practices that adversely affect soil integrity, persistence or recovery of native species, riparian functions, or water quality generally impede ecological recovery after fire. Although research provides a basis for evaluating the efficacy of postfire treatments, there is a continuing need to increase our understanding of the effects of such treatments within the context of societal and ecological goals for forested public lands of the western United States.
+
+3. Title: Wildfire Policy and Public Lands: Integrating Scientific Understanding with Social Concerns across Landscapes
+Authors: MICHAEL P. DOMBECK, JACK E. WILLIAMS, CHRISTOPHER A. WOOD
+Year: 2004.0
+DOI: https://doi.org/10.1111/j.1523-1739.2004.00491.x
+Abstract: Efforts to suppress wildfires have become increasingly problematic in recent years as costs have risen, threats to firefighter safety have escalated, and detrimental impacts to ecosystems have multiplied. Wildfires that escape initial suppression often expand into large, high-intensity summer blazes. Lost is the legacy of smaller fires that likely burned outside extreme weather and fuel conditions and resulted in less severe impacts. Despite the recognized need for modifications to existing policies and practices, resource agencies have been slow to respond. The spread of exotic species, climate change, and increasing human development in wildlands further complicates the issue. New policies are needed that integrate social and ecological needs across administrative boundaries and broad landscapes. These policies should promote a continuum of treatments with active management and reduction of fuel hazard in wildland-urban interface zones and reintroduction of fire in wildlands. Management goals should focus on restoration of the long-term ecological health of the land. Projects that reduce fuel loads but compromise the integrity of soil, water supplies, or watersheds will do more harm than good in the long run. Despite significant ecological concerns, learning to live with fire remains primarily a social issue that will require greater political leadership, agency innovation, public involvement, and community responsibility.
+
+----------
+
+# Instructions: 
+**Explain how these paper relate to your client's concern in the style of a news reporter.** For each paper that you plan to include in your answer, be sure to cite this paper with the in-text APA style. Also include a 'References' section at the end of your answer. 
+
+
+**Example**:
+The smoke and air pollution from wildfires can harm crops and livestock, impacting overall agricultural production in the area (Caldararo, 2015). Meanwhile, Reinhardt, E., Scott, J. H., & Iii, J. K. (2008) stress the importance of understanding the strengths and limitations of fuel treatments to evaluate their potential to achieve objectives, develop sensible fire management policies, and plan for their effective use. 
+
+References:
+Caldararo, N. (2015). Wildfire and Fire-adapted Ecology: How People Created the Current Fire Disasters. doi:http://doi.org/10.2139/ssrn.2649620
+Reinhardt, E., Scott, J. H., & Iii, J. K. (2008). Objectives and considerations for wildland fuel treatment in forested ecosystems of the interior western United States. Forest Ecology and Management, 256(12), 1997-2006. DOI: https://doi.org/10.1016/j.foreco.2008.09.016
+**LLM Response**
+In addressing the challenges of post-wildfire recovery in mountainous regions, several studies offer valuable insights into effective strategies that focus on both public safety and environmental restoration. Jacobs et al. (2003) provide a comprehensive examination of the Alpine Fires, highlighting the critical need for rapid identification of at-risk values, community consultation, and prioritized management responses to stabilize and rehabilitate affected areas. This approach underscores the importance of immediate and structured recovery efforts to safeguard public lands and support the tourism industry (Jacobs et al., 2003).
+
+Beschta et al. (2004) discuss the ecological impacts of common postfire management practices in the western United States, advocating for measures that preserve large trees and rehabilitate firelines and roads. They caution against practices that may impede ecological recovery, such as seeding exotic species or extensive logging, emphasizing the need for management that aligns with long-term ecosystem health (Beschta et al., 2004).
+
+Dombeck, Williams, and Wood (2004) call for integrated wildfire policies that consider both scientific understanding and social concerns. They propose a continuum of treatments that include active management and fuel reduction in interface zones, alongside the reintroduction of fire in wildlands, to restore ecological balance and reduce future fire risks (Dombeck et al., 2004).
+
+These studies collectively highlight the complex interplay between immediate recovery actions and long-term ecological and social strategies essential for sustainable management of public lands following wildfires.
+
+**References:**
+Jacobs, P. et al. (2003). ALPINE FIRES 2003: REHABILITATION AND RECOVERY OF PUBLIC LAND.
+Beschta, R. et al. (2004). Postfire Management on Forested Public Lands of the Western United States. https://doi.org/10.1111/j.1523-1739.2004.00495.x
+Dombeck, M. P., Williams, J. E., & Wood, C. A. (2004). Wildfire Policy and Public Lands: Integrating Scientific Understanding with Social Concerns across Landscapes. https://doi.org/10.1111/j.1523-1739.2004.00491.x
+
+Would you like to delve deeper into any of these studies, or should we proceed with formulating recommendations based on the insights gathered?

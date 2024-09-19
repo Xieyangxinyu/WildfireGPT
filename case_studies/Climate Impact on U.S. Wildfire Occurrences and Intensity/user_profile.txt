@@ -1,0 +1,8 @@
+- **Profession:** Atmospheric scientist
+- **Concern:** Impact of climate on wildfire occurrences and intensity in the U.S.
+- **Location:** Boston, Massachusetts, USA (latitude 42.3601, longitude -71.0589)
+- **Time:** Medium-term (10-30 years)
+- **Scope:** Exploring occurrences and intensity of wildfires
+- **Integration of Climate and Fire Models:** No further exploration needed today.
+- **Impact of Regional Climate Variations:** Analyze studies showing an increase in wildfire occurrences in Boston.
+- **Uncertainties in Medium-Term Climate Predictions:** Identify and address uncertainties affecting future wildfire risks.

@@ -1,0 +1,8 @@
+- **Profession:** Climate change risk and resilience analyst at Argonne National Labs.
+- **Concern:** Understanding wildfire risks towards critical infrastructure, specifically in the energy sector.
+- **Location:** Denver, Colorado (latitude 39.7392, longitude -104.9903).
+- **Time:** Interested in historical data from the past 10-50 years and projections for the medium-term (10-30 years).
+- **Scope:** Exploring how wildfire conditions have changed in the area and assessing potential increases in wildfire occurrence in future time horizons.
+- **Vulnerable Infrastructure Components:** Transmission lines.
+- **Influence of Land Use and Urban Expansion:** Interested in exploring how land use changes and urban expansion in and around Denver have influenced wildfire risk over the last 50 years.
+- **Climate Models and Wildfire Projections:** Focused on the worst-case scenario, RCP 8.5.

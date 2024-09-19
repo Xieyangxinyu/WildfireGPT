@@ -1,0 +1,109 @@
+path: src/assistants/analyst/
+name: AnalystAssistant
+available_functions:
+  fire_weather_index:
+    description: "Input latitude and longitude to receive decade-level FWI projection data, including historical (1995 - 2004), mid-century (2045 - 2054), and end-of-century projections (2085 - 2094)."
+    parameters:
+      lat:
+        description: "The latitude of the location"
+        type: number
+      lon:
+        description: "The longitude of the location"
+        type: number
+    required: ["lat", "lon"]
+    appendix: "FWI.md"
+
+  long_term_fire_history_records:
+    description: "Provide latitude and longitude to get the three closest fire history records within a 36 km (22 miles) radius, dating back centuries. This is useful for understanding the long-term history of wildfires in the area and how they have changed over time."
+    parameters:
+      lat:
+        description: "The latitude of the location"
+        type: number
+      lon:
+        description: "The longitude of the location"
+        type: number
+    required: ["lat", "lon"]
+    appendix: history.md
+
+  recent_fire_incident_data:
+    description: "To provide summary statistics of recent wildfire incidents (year 2015 - 2023) within 36 km (22 miles) of the specified area and time frame."
+    parameters:
+      lat:
+        description: "The latitude of the location"
+        type: number
+      lon:
+        description: "The longitude of the location"
+        type: number
+      start_year:
+        description: "The start year of the historical data, must be later than 2015"
+        type: number
+      end_year:
+        description: "The end year of the historical data, must be earlier than 2023"
+        type: number
+    required: ["lat", "lon", "start_year", "end_year"]
+    appendix: incident.md
+  
+  literature_search:
+    description: "Input a query related to the user's project or concern, and receive titles and abstracts of relevant papers."
+    parameters:
+      query:
+        description: "A detailed query to search for based on the user's project. Please be as specific as possible. **Example:**\n- Effective wildfire mitigation techniques for forest ecosystems in Southern Kansas.\n- Fire-resistant construction materials and techniques for bridge building in wildfire-prone areas of Southern California.\n -Study of local vegetation types in Northern New Mexico and their influence on wildfire behavior and spread.\n"
+        type: string
+    required: ["query"]
+    appendix: literature.md
+  
+  census:
+    description: "Input a location to receive demographic information from the most recent census data."
+    parameters:
+      lat:
+        description: "The latitude of the location"
+        type: number
+      lon:
+        description: "The longitude of the location"
+        type: number
+    required: ["lat", "lon"]
+    appendix: census.md
+
+instructions: |
+  As an expert consultant specializing in wildfire risks, your role is to assist your client with various aspects of wildfire and climate change understanding and mitigation. Effectively engage with your client in order to address their concerns. Always ask if your client has any questions, or you can proceed to the next step.
+
+  Here is the information about your client:
+  
+
+
+init_message: |
+  While I am preparing the analysis, I'd like to let you know that I can also report some census data. Specifically, I can analyze the following demographic information reported at the census block level within a 36 km (22 miles) radius of the location of interest:
+  - Total population
+  - Number of Housing Units
+  - Number of People Below Poverty Level
+
+  If you need to assess the potential impact of a wildfire on the local community, you can ask me to provide this demographic information by asking questions like: "who will be affected by the wildfire?"
+
+caution_message: |
+  While I am preparing for a response, I want to touch base regarding any recommendations I provide in this session. While all the suggestions and recommendations are based on our expertise and current understanding of your specific situation, it is crucial to recognize that further investigation and verification are necessary before implementing any significant changes or investments.
+
+summary_instructions: |
+  Provide a comprehensive summary of the previous conversation, including the user's concerns and questions, as well as the information provided by the assistant. This will help maintain a clear and focused approach moving forward.
+
+  More importantly, pay attention to the following:
+  - Clarify the current stage of your action plan to assist the user with their wildfire-related concerns. What specific steps have been taken so far, and what is the immediate next action to be undertaken? This will help maintain a clear and focused approach moving forward.
+
+
+query_assessment_instructions: |
+  When interacting with your client, assess the content of their query. If the client explicitly poses a question, your response should address it directly. In this case, simply type: 'Respond to the client's questions.'
+
+  If the client does not present a clear question and instead provides information or context that aligns with your planned approach or strategy, proceed accordingly without deviation. In this situation, simply type: 'Proceed with the plan.'
+
+  **Important:** Your response should only be either 'Respond to the client's questions.' or 'Proceed with the plan.'
+
+
+tiny_plan_instructions: |
+  Before you proceed, let's make a one-step plan by following this brief process. First, articulate your specific action for this step in **20 words or less**. Then, choose only one relevant tool from the following options: 'fire_weather_index', 'long_term_fire_history_records', 'recent_fire_incident_data', 'literature_search', or 'no tool needed'.
+
+  For example:
+  - 'Analyze the Fire Weather Index dataset.' `fire_weather_index`
+  - 'Review recent studies on wildfire impacts on water resources.' `literature_search`
+  - 'Develop strategies to reduce wildfire risks.' `no tool needed`
+  - 'Examine the impact of recent wildfires.' `recent_fire_incident_data`
+
+  **Please specify** the tool you intend to use at the end of your input.
