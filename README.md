@@ -1,4 +1,4 @@
-# WildfireGPT: Tailored  Large Language Model for Wildfire Analysis
+# Personalized and context-specific climate resilience and adaptation with large language model
 
 ## Pre-requisites
 We use Python 3.11.6 and [Poetry](https://python-poetry.org/) to manage dependencies. 
