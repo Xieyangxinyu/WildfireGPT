@@ -2,7 +2,7 @@
 
 [![Arxiv](https://img.shields.io/badge/ArXiv-Read_Our_Paper-B31B1B)](https://arxiv.org/pdf/2402.07877) 
 
-🚀 We’re thrilled to share the [preprint](https://arxiv.org/pdf/2402.07877) of our paper — check it out!
+🚀 The preliminary version of this work has been accepted at the [NeurIPS 2024 Workshop on Tackling Climate Change with Machine Learning](https://www.climatechange.ai/events/neurips2024). We’re thrilled to share the [preprint](https://arxiv.org/pdf/2402.07877) — check it out!
 
 ## Pre-requisites
 We use Python 3.11.6 and [Poetry](https://python-poetry.org/) to manage dependencies. 
