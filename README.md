@@ -1,5 +1,9 @@
 # Personalized and context-specific climate resilience and adaptation with large language model
 
+[![Arxiv](https://img.shields.io/badge/ArXiv-Full_Paper-B31B1B)](https://arxiv.org/pdf/2402.07877) 
+
+🚀 We’re thrilled to share the [preprint](https://arxiv.org/pdf/2402.07877) of our paper — check it out!
+
 ## Pre-requisites
 We use Python 3.11.6 and [Poetry](https://python-poetry.org/) to manage dependencies. 
 
