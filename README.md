@@ -1,6 +1,6 @@
 # Personalized and context-specific climate resilience and adaptation with large language model
 
-[![Arxiv](https://img.shields.io/badge/ArXiv-Full_Paper-B31B1B)](https://arxiv.org/pdf/2402.07877) 
+[![Arxiv](https://img.shields.io/badge/ArXiv-Read_Our_Paper-B31B1B)](https://arxiv.org/pdf/2402.07877) 
 
 🚀 We’re thrilled to share the [preprint](https://arxiv.org/pdf/2402.07877) of our paper — check it out!
 
