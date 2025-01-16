@@ -32,7 +32,12 @@ setuptools = "^70.0.0"
 statsmodels = "^0.14.2"
 bert-score = "^0.3.13"
 wordcloud = "^1.9.3"
+folium = "^0.19.4"
+streamlit-folium = "^0.24.0"
 
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
 
 [build-system]
 requires = ["poetry-core"]
