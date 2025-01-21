@@ -87,7 +87,7 @@ Pros:
 * Focuses on academic literature, offering depth and rigor for advanced research.
 
 Cons:
-* Occasionally includes geographically misaligned references, reducing contextual relevance.
+* Occasionally includes geographically misaligned references, reducing contextual relevance; but updating the database is very doable.
 
 Perplexity AI
 
