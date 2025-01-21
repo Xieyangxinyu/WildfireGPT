@@ -46,6 +46,7 @@ Cons:
 * Frequently reports data from incorrect geographical locations, compromising analysis accuracy
 * Struggles to interpret provided datasets correctly, often claiming data isn't available when it is
 * Tends to rely on overly broad or sometimes irrelevant source material
+* Fail to deliver analysis for regions where there is no easy access to public reports; content is limited to what has been reported online
 * Often fails to provide location-specific insights, instead defaulting to regional generalizations
 * Shows inconsistency in data interpretation and analysis across different queries
 * Cites sources that may not be directly applicable to the specific location or context
