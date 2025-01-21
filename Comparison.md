@@ -38,7 +38,7 @@ Perplexity AI
 Pros:
 * Capable of accessing and citing multiple external sources and publications
 * Provides broader contextual information about regional trends
-* Can incorporate information from various public documents and reports
+* For data-rich locations, can incorporate information from various public documents and reports
 * Attempts to compensate for data gaps by providing general information about areas
 * Shows flexibility in accessing different types of data sources
 
