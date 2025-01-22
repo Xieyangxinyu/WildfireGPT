@@ -1,4 +1,4 @@
-The following table shows the comparison between the two models when asked to retrieve and analyze data for a specific location. The table includes the case study, the prompt, the response from WildfireGPT, the response from Perplexity AI when provided the data file, and the link to the Perplexity AI response.
+The following table shows the comparison between the two models when asked to retrieve and analyze data for a specific location. The table includes the case study, the prompt, the response from WildfireGPT, the response from Perplexity AI, the response from Perplexity AI when provided the data file, and the link to the Perplexity AI response.
 
 Case Study| Prompt | WildfireGPT | Perplexity AI | Perplexity AI when provided the data file | Perplexity AI Link
 --- | --- | --- | --- | --- | ---
