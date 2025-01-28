@@ -11,14 +11,6 @@ class PlanAssistant(Assistant):
             "plan_complete": self.plan_complete,
         }
         self.init_message_sent = False
-        
-        '''
-        self.feedback_assistant = client.beta.assistants.create(
-                name="FeedbackAssistant",
-                instructions= f"**Task**: Check the response carefully for correctness and give constructive criticism for how to improve it.\n\n\nThe plan assistant only has access to these datasets:\n{self.config['available_datasets']}.\n\n",
-                model=model
-            )
-        '''
 
         stream_static_text(self.config['init_message'])
         st.session_state.messages.append({"role": "assistant", "content": self.config['init_message']})

@@ -64,4 +64,4 @@ init_message: |
   Once I have completed the plan, I will share it with you for your feedback. At that time, please let me know if you have any specific preferences or areas of focus you'd like me to prioritize in future revisions or updates to the plan.
 
 name: Plan
-path: src/assistants/plan/config.py
+path: src/assistants/plan/config.yml

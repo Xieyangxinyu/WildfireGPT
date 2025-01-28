@@ -68,16 +68,6 @@ class ChecklistAssistant(Assistant):
                 ],
         )
         
-        # TODO:
-        # 1. understand typical concerns of people with a specific type of profession and concern
-        # e.g. emergency/hazard mitigation planners are interested in 1/ location 2/ intensity of hazard 3/ probability of hazard 4/ vulnerability of the community impacted by the hazard
-        # e.g. community planners are interested in 1/ location of the new community 2/ what risk will the new community face 3/ how to design the community to mitigate the risk
-        # e.g. flood plan developers are interested in how wildfire will change the flood risk in the area
-        # e.g. land managers ...
-        # few shot prompting? generate more questions and filter out the most relevant ones that can be addressed by subsequent data and literature review in the overall experience
-        # 2. check if these typical concerns are covered in the checklist
-        # 3. if not, ask follow-up questions to check if these concerns should be added to the checklist
-
         updated_checklist += "\n\nFor each question on the checklist, ask the client if they are interested in addressing it with your assistance today. \n\n**After you confirm the accuracy of all the information, call the function `checklist_complete()` with your completed checklist.**"
         args = {
             "checklist": checklist + "\n" + updated_checklist

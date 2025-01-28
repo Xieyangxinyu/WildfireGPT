@@ -56,7 +56,7 @@ def get_author(authors_str):
         formatted = ', '.join(f"{author['first']} {author['last']}" for author in authors)
     return formatted
 
-def literature_search(query, messages = None):
+def literature_search(query):
     '''
     input: 
         query: the query to search for. For example, 'What is the relationship between climate change and wildfire?'
