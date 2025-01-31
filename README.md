@@ -32,9 +32,11 @@ model=<your model name  # e.g. gpt-4-1106-preview>
 ```
 Please check [OpenAI Model Pricing](https://openai.com/pricing) before choosing a model.
 
+## Data
+
 All data are available under the ``data`` folder. You can download all the data from this [Box Link](https://anl.box.com/s/wm888zovyapyou1txae7g75ghpc7sxre).
 
-## Data
+The data provided above are retrieved from the following sources:
 
 - The Fire Weather Index (FWI) projections from ClimRR are available for download at [https://anl.app.box.com/s/hmkkgkrkzxxocfe9kpgrzk2gfc4gizp8](https://anl.app.box.com/s/hmkkgkrkzxxocfe9kpgrzk2gfc4gizp8). Make sure to include `GridCellsShapefile` as well as `FireWeatherIndex_Wildfire.csv`.
 - Wildland Fire Incident Locations data can be accessed at [https://data-nifc.opendata.arcgis.com/datasets/nifc::wildland-fire-incident-locations/about](https://data-nifc.opendata.arcgis.com/datasets/nifc::wildland-fire-incident-locations/about). To run WildfireGPT, we pruned the data to include these four columns: `lon`, `lat`, `year`, `month` and renamed the file to `data/Wildland_Fire_Incident_Locations_pruned.csv`.
