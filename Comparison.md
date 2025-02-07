@@ -15,6 +15,56 @@ Wildland Urban Interface Impact on Housing and Water Resources | Analyze project
 
 (*) For a fair comparison, we didn't provide the data file for this prompt, as WildfireGPT utilized the U.S. census API to retrieve the data.
 
+Here is the table for metric "Data Provided":
+
+Case Study| Prompt | WildfireGPT | ChatClimate | Perplexity AI |
+--- | --- | --- | --- | --- | 
+Climate Impact on U.S. Wildfire Occurrences and Intensity | Analyze future climate data to understand potential trends in fire danger in Boston, Massachusetts, USA | ✅ | ✅ (1) | ✅ |
+Community Hazard Mitigation Planning | Analyze the recent fire incident data for Mora County, reviewing wildfire frequency, intensity, and timing from 2015 to 2023 | ✅ | ❌ | ✅ |
+Comprehensive Wildfire Impact | Review the long-term fire history records to assess the frequency and intensity of past wildfires over the last 50+ years in Mount Bigelow, AZ | ✅ | ❌ | ❌ |
+Current Wildfire Risk Analysis | Analyze demographic and socio-economic profiles of the Chico area in California to understand which groups are most vulnerable in wildfire scenarios | ✅ | ✅ | ✅ |
+Ecosystem Fire Management | Analyze the Long Term Fire History Records to assess wildfire events over the past 150 years in the Naperville region | ❌ | ❌ | ❌ | 
+Infrastructure Wildfire Risk | Examine climate models and projections under the RCP 8.5 scenario to forecast potential future wildfire risks in the medium-term (10-30 years) in Denver, Colorado. | ✅ | ✅ | ✅ |
+Post-Wildfire Public Safety and Environmental Restoration | Analyze the recent fire incident data from the Wildland Fire Interagency Geospatial Services Group to assess the frequency, intensity, and locations of recent wildfires in Sangre De Cristo Mountains | ✅ | ❌ | ❌ | 
+Private Property Protection | Analyze the recent fire incident data from the last five years in Covington, VA | Retrieved fire incident records within 36 km of the location (lat: 37.7935, lon:-79.9939) | ✅ | ❌ | ✅ |
+Urban Wildfire Mitigation | Analyze the FWI focusing on both current trends and projections for the mid-century (2045-2054) to assess the potential increase in fire danger due to climate change in Beaverton, Oregon | ✅ | ✅ | ✅ |
+Wildland Urban Interface Impact on Housing and Water Resources | Analyze projected wildfire risk data for the Mid-Century period (2045 - 2054) to understand the potential trends in fire danger in Las Vegas, NM. | ✅ | ✅ (1) | ✅ |
+
+(1) Although no specific number was mentioned, ChatClimate nonetheless interprets the increase in fire risks due to climate change in language.
+
+Here is the table for metric "Location Specificity":
+
+Case Study| Prompt | WildfireGPT | ChatClimate | Perplexity AI |
+--- | --- | --- | --- | --- | 
+Climate Impact on U.S. Wildfire Occurrences and Intensity | Analyze future climate data to understand potential trends in fire danger in Boston, Massachusetts, USA | ✅ | ❌  | ✅ |
+Community Hazard Mitigation Planning | Analyze the recent fire incident data for Mora County, reviewing wildfire frequency, intensity, and timing from 2015 to 2023 | ✅ | N/A | ✅ |
+Comprehensive Wildfire Impact | Review the long-term fire history records to assess the frequency and intensity of past wildfires over the last 50+ years in Mount Bigelow, AZ | ✅ | N/A | N/A |
+Current Wildfire Risk Analysis | Analyze demographic and socio-economic profiles of the Chico area in California to understand which groups are most vulnerable in wildfire scenarios | ✅ | ❌| ✅ |
+Ecosystem Fire Management | Analyze the Long Term Fire History Records to assess wildfire events over the past 150 years in the Naperville region | N/A | N/A | N/A | 
+Infrastructure Wildfire Risk | Examine climate models and projections under the RCP 8.5 scenario to forecast potential future wildfire risks in the medium-term (10-30 years) in Denver, Colorado. | ✅ | ❌ | ❌ |
+Post-Wildfire Public Safety and Environmental Restoration | Analyze the recent fire incident data from the Wildland Fire Interagency Geospatial Services Group to assess the frequency, intensity, and locations of recent wildfires in Sangre De Cristo Mountains | ✅ | N/A | N/A | 
+N/A | ✅ |
+Urban Wildfire Mitigation | Analyze the FWI focusing on both current trends and projections for the mid-century (2045-2054) to assess the potential increase in fire danger due to climate change in Beaverton, Oregon | ✅ | ❌ | ❌ |
+Wildland Urban Interface Impact on Housing and Water Resources | Analyze projected wildfire risk data for the Mid-Century period (2045 - 2054) to understand the potential trends in fire danger in Las Vegas, NM. | ✅ | ❌ | ❌ |
+
+Here is the table for metric "Data Accuracy":
+
+Case Study| Prompt | WildfireGPT | Perplexity AI when provided the data file |
+--- | --- | --- | --- | --- | 
+Climate Impact on U.S. Wildfire Occurrences and Intensity | Analyze future climate data to understand potential trends in fire danger in Boston, Massachusetts, USA | ✅ | ❌ |
+Community Hazard Mitigation Planning | Analyze the recent fire incident data for Mora County, reviewing wildfire frequency, intensity, and timing from 2015 to 2023 | ✅ | ❌ |
+Comprehensive Wildfire Impact | Review the long-term fire history records to assess the frequency and intensity of past wildfires over the last 50+ years in Mount Bigelow, AZ | ✅ | ✅ |
+Current Wildfire Risk Analysis | Analyze demographic and socio-economic profiles of the Chico area in California to understand which groups are most vulnerable in wildfire scenarios | ✅ | ✅ |
+Ecosystem Fire Management | Analyze the Long Term Fire History Records to assess wildfire events over the past 150 years in the Naperville region | N/A | N/A |
+Infrastructure Wildfire Risk | Examine climate models and projections under the RCP 8.5 scenario to forecast potential future wildfire risks in the medium-term (10-30 years) in Denver, Colorado. | ❌ | N/A |
+Post-Wildfire Public Safety and Environmental Restoration | Analyze the recent fire incident data from the Wildland Fire Interagency Geospatial Services Group to assess the frequency, intensity, and locations of recent wildfires in Sangre De Cristo Mountains | ✅ | ❌ |
+Private Property Protection | Analyze the recent fire incident data from the last five years in Covington, VA | Retrieved fire incident records within 36 km of the location (lat: 37.7935, lon:-79.9939) | ✅ | ❌ |
+Urban Wildfire Mitigation | Analyze the FWI focusing on both current trends and projections for the mid-century (2045-2054) to assess the potential increase in fire danger due to climate change in Beaverton, Oregon | ✅ | ❌ |
+Wildland Urban Interface Impact on Housing and Water Resources | Analyze projected wildfire risk data for the Mid-Century period (2045 - 2054) to understand the potential trends in fire danger in Las Vegas, NM. | ✅ | ❌ |
+
+
+
+
 Based on the comparative analysis, here are the key pros and cons of WildfireGPT and Perplexity AI:
 
 WildfireGPT
@@ -127,3 +177,4 @@ Post-Wildfire Public Safety and Environmental Restoration | Search for scientifi
 Private Property Protection | Is fire common in this region prior to 1900s in Covington, VA? What is the natural fire regime? | Based on the information provided, it is not possible to determine if fire was common in the region of Covington, VA, prior to the 1900s or what the natural fire regime was. The information provided discusses fire regimes in different regions such as Australia, British Columbia, and southern Africa, but does not specifically mention Covington, VA. Therefore, there is not enough information to answer the question.
 Urban Wildfire Mitigation | Are there supporting literature for Buﬀer Zones that communities can implement to manage wildfire risk? | Buffer zones are an important adaptation option for communities to manage wildfire risk. Several supporting literature and tools exist for implementing buffer zones to reduce fire risks and create fire-resilient communities: 1. Improved planning of residential development to avoid inevitable wildfires (Schoennagel et al., 2017; Samara et al., 2018). 2. Improved fire suppression capacities and strategies (Brotons et al., 2013; Regos et al., 2014; Khabarov et al., 2016; Turco et al., 2018a; 2018b). 3. Managing and planning landscape matrix schemes to reduce fire risk (de Rigo et al., 2017; Erdős et al., 2018). 4. Thinning, slash management, and prescribed burning techniques (Fernandes et al., 2016; 2018; Khabarov et al., 2016; Regos et al., 2016; Piqué and Domènech, 2018; Samara et al., 2018; Vilà-Cabrera et al., 2018; Duane et al., 2019). 5. Understory grazing (Varga et al., 2016; Vilà-Cabrera et al., 2018). 6. Tools like FireSmart Canada, Firewise USA, and Think-Hazard Mexico provide design guidance at various scales and instruct on creating defensible space (National Fire Protection Association, 2013; Firesmart Canada, 2018). 7. The National Fire Protection Association offers a Best Practices Guide for Planners and Regulators on Community Wildfire Safety Through Regulation (NFPA, 2013). These resources and strategies can help communities implement buffer zones and other measures to effectively manage wildfire risks (IPCC_AR6_WGII_CCP4, p.17; IPCC_AR6_WGII_Chapter14, p.22; IPCC_AR6_WGII_Chapter14, p.99). Additionally, better fire management practices, including reinstating more natural fire regimes, can help reduce wildfire risks for communities (IPCC_AR6_WGII_Chapter02, p.94). (In-house knowledge)
 Wildland Urban Interface Impact on Housing and Water Resources | Are there good examples of similar cities to Las Vegas, NM that might experience similar shifts in wildfire risk? What mitigation strategies are those cities implementing? | Las Vegas, NM, and other cities facing similar shifts in wildfire risk can consider various mitigation strategies to reduce the impact of wildfires. Some of these strategies include: 1. Improved planning of residential development to avoid inevitable wildfires. 2. Enhanced fire suppression capacities and strategies. 3. Managing and planning landscape matrix schemes to reduce fire risk. 4. Implementing thinning, slash management, and prescribed burning techniques. 5. Utilizing understory grazing to reduce fire risk. These strategies can help mitigate the impact of wildfires on cities and settlements. (IPCC_AR6_WGII_CCP4, Page 17) Additionally, established cities that are compact and walkable can focus on electrification of all urban energy services and use urban green and blue infrastructure to sequester and store carbon while reducing urban heat stress. Decarbonizing electricity and energy carriers, electrifying mobility, heating, and cooling, and integrating urban forests, street trees, green space, green roofs, walls, and retrofits are also effective mitigation strategies with high potential. (IPCC_AR6_WGIII_Chapter08, Page 61) Furthermore, cities adjacent to wildlands, particularly in the wildland-urban interface (WUI), should be prepared for wildfires. These cities can implement measures to address weather conditions driving fire events and enhance their resilience to wildfires. (IPCC_AR6_WGII_Chapter06, Page 22) (In-house knowledge) It is essential for cities facing increased wildfire risks to adopt a combination of mitigation and adaptation strategies to effectively manage and reduce the impact of wildfires on their communities. Coordination across sectors and governance levels is crucial for successful wildfire risk management.
+
