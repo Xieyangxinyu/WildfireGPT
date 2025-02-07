@@ -50,7 +50,7 @@ Wildland Urban Interface Impact on Housing and Water Resources | Analyze project
 Here is the table for metric "Data Accuracy":
 
 Case Study| Prompt | WildfireGPT | Perplexity AI when provided the data file |
---- | --- | --- | --- | --- | 
+--- | --- | --- | --- |
 Climate Impact on U.S. Wildfire Occurrences and Intensity | Analyze future climate data to understand potential trends in fire danger in Boston, Massachusetts, USA | ✅ | ❌ |
 Community Hazard Mitigation Planning | Analyze the recent fire incident data for Mora County, reviewing wildfire frequency, intensity, and timing from 2015 to 2023 | ✅ | ❌ |
 Comprehensive Wildfire Impact | Review the long-term fire history records to assess the frequency and intensity of past wildfires over the last 50+ years in Mount Bigelow, AZ | ✅ | ✅ |
