@@ -58,7 +58,7 @@ Current Wildfire Risk Analysis | Analyze demographic and socio-economic profiles
 Ecosystem Fire Management | Analyze the Long Term Fire History Records to assess wildfire events over the past 150 years in the Naperville region | N/A | N/A |
 Infrastructure Wildfire Risk | Examine climate models and projections under the RCP 8.5 scenario to forecast potential future wildfire risks in the medium-term (10-30 years) in Denver, Colorado. | ❌ | N/A |
 Post-Wildfire Public Safety and Environmental Restoration | Analyze the recent fire incident data from the Wildland Fire Interagency Geospatial Services Group to assess the frequency, intensity, and locations of recent wildfires in Sangre De Cristo Mountains | ✅ | ❌ |
-Private Property Protection | Analyze the recent fire incident data from the last five years in Covington, VA | Retrieved fire incident records within 36 km of the location (lat: 37.7935, lon:-79.9939) | ✅ | ❌ |
+Private Property Protection | Analyze the recent fire incident data from the last five years in Covington, VA  | ✅ | ❌ |
 Private Property Protection | Analyze the recent fire incident data from the last five years in Covington, VA | ✅ | ❌ | ❌ |
 Urban Wildfire Mitigation | Analyze the FWI focusing on both current trends and projections for the mid-century (2045-2054) to assess the potential increase in fire danger due to climate change in Beaverton, Oregon | ✅ | ❌ |
 Wildland Urban Interface Impact on Housing and Water Resources | Analyze projected wildfire risk data for the Mid-Century period (2045 - 2054) to understand the potential trends in fire danger in Las Vegas, NM. | ✅ | ❌ |
