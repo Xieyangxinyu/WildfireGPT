@@ -4,14 +4,6 @@ import os
 
 load_dotenv()
 
-client = OpenAI(
-  api_key='<YOUR_API_KEY>', 
-  base_url="https://oai.hconeai.com/v1", 
-  default_headers={ 
-    "Helicone-Auth": f"Bearer pk-helicone-4vv3wbi-g6dea4y-xer3cki-3utlmtq",
-  }
-)
-
 client = OpenAI()
 
 # read model from .env file
