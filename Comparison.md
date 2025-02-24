@@ -135,13 +135,13 @@ Case Study| Prompt | WildfireGPT | ChatClimate | Perplexity AI |
 --- | --- | --- | --- | --- 
 Climate Impact on U.S. Wildfire Occurrences and Intensity | Is FWI a robust estimate of the fire danger risk? | ❌ | ✅ | ✅ |
 Community Hazard Mitigation Planning | What universities would make good partners to undertake studies on fire behavior and eﬀective mitigation strategies in Mora County, NM? | ❌ | ❌ | ✅ |
-Comprehensive Wildfire Impact | What are the wildfire mitigation strategies, ecological impacts, and economic eﬀects in forested areas similar to Mount Bigelow, AZ? | ✅ | ❌ | ✅ |
+Comprehensive Wildfire Impact | What are the wildfire mitigation strategies, ecological impacts, and economic eﬀects in forested areas similar to Mount Bigelow, AZ? | ✅ | ✅ | ✅ |
 Current Wildfire Risk Analysis | Please provide sources on how to obtain data for Vegetation Type and Density, Previous Burn History, Human Activity Levels, Topography, Weather Conditions, Land Management Practices, Infrastructure and Accessibility, Socio-Economic Factors, and Climate Change Indicators | ❌ | ✅ | ✅ |
 Ecosystem Fire Management | It looks like March is the time folks implement a controlled burn in Naperville, IL. What do you think? | ✅ | ❌ | ✅ |
-Infrastructure Wildfire Risk | Let's dive deeper into Firebreaks and Buﬀer Zones. I'm interested in learning about approaches to establish firebreaks around the critical infrastructure and vegetation management practices. Can you provide more detail with evidences? | ✅ | ❌ | ✅ |
-Post-Wildfire Public Safety and Environmental Restoration | Search for scientific literature on eﬀective post-wildfire recovery strategies, focusing on public safety and environmental restoration in Sangre De Cristo Mountains. | ✅ | ❌ | ✅ |
+Infrastructure Wildfire Risk | Let's dive deeper into Firebreaks and Buﬀer Zones. I'm interested in learning about approaches to establish firebreaks around the critical infrastructure and vegetation management practices. Can you provide more detail with evidences? | ✅ | ✅ | ✅ |
+Post-Wildfire Public Safety and Environmental Restoration | Search for scientific literature on eﬀective post-wildfire recovery strategies, focusing on public safety and environmental restoration in Sangre De Cristo Mountains. | ✅ | ✅ | ✅ |
 Private Property Protection | Is fire common in this region prior to 1900s in Covington, VA? What is the natural fire regime? | ✅ | ❌ | ✅ |
-Urban Wildfire Mitigation | Are there supporting literature for Buﬀer Zones that communities can implement to manage wildfire risk? | ✅ | ❌ | ✅ |
+Urban Wildfire Mitigation | Are there supporting literature for Buﬀer Zones that communities can implement to manage wildfire risk? | ✅ | ✅ | ✅ |
 Wildland Urban Interface Impact on Housing and Water Resources | Are there good examples of similar cities to Las Vegas, NM that might experience similar shifts in wildfire risk? What mitigation strategies are those cities implementing? | ✅ | ✅ | ✅ |
 
 Here is the table for metric "Citation Provided":
@@ -149,17 +149,17 @@ Here is the table for metric "Citation Provided":
 Case Study| Prompt | WildfireGPT | ChatClimate (1) | Perplexity AI |
 --- | --- | --- | --- | --- 
 Climate Impact on U.S. Wildfire Occurrences and Intensity | Is FWI a robust estimate of the fire danger risk? | N/A | ✅ | ✅ |
-Community Hazard Mitigation Planning | What universities would make good partners to undertake studies on fire behavior and eﬀective mitigation strategies in Mora County, NM? | N/A | ❌ | ✅ |
+Community Hazard Mitigation Planning | What universities would make good partners to undertake studies on fire behavior and eﬀective mitigation strategies in Mora County, NM? | N/A | N/A | ✅ |
 Comprehensive Wildfire Impact | What are the wildfire mitigation strategies, ecological impacts, and economic eﬀects in forested areas similar to Mount Bigelow, AZ? | ✅ | ❌ | ✅ |
 Current Wildfire Risk Analysis | Please provide sources on how to obtain data for Vegetation Type and Density, Previous Burn History, Human Activity Levels, Topography, Weather Conditions, Land Management Practices, Infrastructure and Accessibility, Socio-Economic Factors, and Climate Change Indicators | N/A | ✅ | ✅ |
-Ecosystem Fire Management | It looks like March is the time folks implement a controlled burn in Naperville, IL. What do you think? | ✅ | ❌ | ✅ |
+Ecosystem Fire Management | It looks like March is the time folks implement a controlled burn in Naperville, IL. What do you think? | ✅ | N/A | ✅ |
 Infrastructure Wildfire Risk | Let's dive deeper into Firebreaks and Buﬀer Zones. I'm interested in learning about approaches to establish firebreaks around the critical infrastructure and vegetation management practices. Can you provide more detail with evidences? | ✅ | ❌ | ✅ |
 Post-Wildfire Public Safety and Environmental Restoration | Search for scientific literature on eﬀective post-wildfire recovery strategies, focusing on public safety and environmental restoration in Sangre De Cristo Mountains. | ✅ | ❌ | ✅ |
-Private Property Protection | Is fire common in this region prior to 1900s in Covington, VA? What is the natural fire regime? | ✅ | ❌ | ✅ |
+Private Property Protection | Is fire common in this region prior to 1900s in Covington, VA? What is the natural fire regime? | ✅ | N/A | ✅ |
 Urban Wildfire Mitigation | Are there supporting literature for Buﬀer Zones that communities can implement to manage wildfire risk? | ✅ | ❌ | ✅ |
 Wildland Urban Interface Impact on Housing and Water Resources | Are there good examples of similar cities to Las Vegas, NM that might experience similar shifts in wildfire risk? What mitigation strategies are those cities implementing? | ✅ | ✅ | ✅ |
 
-(1) For ChatClimate, when it refers to studies outside of IPCC reports, it fails to provide the full title/link to the cited study; hence some ❌ in its column.
+(1) For ChatClimate, when it refers to studies outside of IPCC reports, it fails to provide the full title/link to the cited study; hence the ❌ in its column.
 
 Here is the table for metric "Sole Use of Scientific/Governmental Sources":
 
