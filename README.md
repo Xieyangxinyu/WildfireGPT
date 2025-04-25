@@ -50,6 +50,9 @@ python src/literature/index.py
 ```
 
 ## Run WildfireGPT
+
+All data are available under the ``data`` folder. You can download all the data from this [Box Link](https://anl.box.com/s/wm888zovyapyou1txae7g75ghpc7sxre).
+
 We use [Streamlit](https://streamlit.io) to create a web app. To run the web app, run
 ```
 streamlit run src/wildfireChat.py
