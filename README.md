@@ -1,6 +1,6 @@
 # A RAG-BASED MULTI-AGENT LLM SYSTEM FOR NATURAL HAZARD RESILIENCE AND ADAPTATION
 
-[![Arxiv](https://img.shields.io/badge/ArXiv-Read_Our_Paper-B31B1B)](https://arxiv.org/pdf/2402.07877) 
+[![Arxiv](https://img.shields.io/badge/ArXiv-Read_Our_Paper-B31B1B)](https://arxiv.org/pdf/2504.17200) 
 
 🚀 The preliminary version of this work has been accepted at the [NeurIPS 2024 Workshop on Tackling Climate Change with Machine Learning](https://www.climatechange.ai/events/neurips2024). We’re thrilled to share the [preprint](https://arxiv.org/pdf/2504.17200) — check it out!
 
